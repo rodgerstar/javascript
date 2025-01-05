@@ -24,5 +24,38 @@ const double = (numbers) => {
     }
     return result
 }
- console.log(double([1, 2, 4, 56, 70, 101]))
+ // console.log(double([1, 2, 4, 56, 70, 101]))
+const prompt = require('prompt-sync')();
+
+const howManyLetters = () => {
+
+
+    let result = 0;
+
+    // Use a for-in loop to iterate over the indexes
+    for (const index in phrase) {
+        console.log(Number(index) + 1);
+        result = Number(index) + 1
+    }
+
+    return { result };
+};
+
+// const phrase = prompt('write your phrase ');
+//
+// console.log(howManyLetters(phrase));
+
+const  sumArray = (numbers) =>{
+    let result = 0;
+    // for loop
+    for (const number of numbers) {
+        console.log(number)
+        result = result + number
+    }
+    return {result}
+}
+
+const nums = [1, 2, 3, 4, 6, 7]
+console.log(sumArray(nums))
+
 
