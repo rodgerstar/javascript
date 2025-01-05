@@ -1,6 +1,11 @@
 // console.log('hello world')
 // console.log('rodgers')
 //
+
+// const -> the value cannot be changed
+// let -> the value can be changed (recommended beginner level)
+// var -> the value can be changed
+
 // // variables
 // name = "rodgers"
 // console.log(name)
@@ -30,7 +35,20 @@
 //  arrays []
 //  objects {}
 //  boolean  true / false )
+//
+// number = Math.random() * 3
+// number = Math.floor(number)
+// console.log(number)
 
-number = Math.random() * 3
-number = Math.floor(number)
-console.log(number)
+// baby weather app
+// conditionals
+
+const prompt = require('prompt-sync')();
+
+let weather = prompt('How is the weather')
+
+if (weather === 'rainy'){
+    console.log('Grab your umbrella')
+}else {
+    console.log('Wear your sunglasses')
+}
