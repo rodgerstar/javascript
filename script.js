@@ -79,33 +79,33 @@
 // greeting('nuri uuy')
 
 
-function sum(a, b) {
-    //return
-    return a + b
-}
+// function sum(a, b) {
+//     //return
+//     return a + b
+// }
 //
 // console.log(sum(2, 4))
 
 // const prompt = require('prompt-sync')();
 // // user input
-function calculateFoodTotal(food, tip){
-    tipPercentage = tip / 100
-    tipAmount = food * tipPercentage
-    tipAmount = Math.floor(tipAmount)
-    total = sum(food, tipAmount)
-    return total
-}
-
-console.log(calculateFoodTotal(169,23))
+// function calculateFoodTotal(food, tip){
+//     tipPercentage = tip / 100
+//     tipAmount = food * tipPercentage
+//     tipAmount = Math.floor(tipAmount)
+//     total = sum(food, tipAmount)
+//     return total
+// }
+//
+// console.log(calculateFoodTotal(169,23))
 
 //arrow functions =>
 // arrow function with explicit return
-const sumArrow = (a, b) =>{
-    return a + b
-}
-
-// arrow function with implicit return
-// NOTE: for implicit return, remove curly braces{}
-const sumArrow2 = (a, b) => a + b
-
-console.log(sumArrow2(10, 50))
+// const sumArrow = (a, b) =>{
+//     return a + b
+// }
+//
+// // arrow function with implicit return
+// // NOTE: for implicit return, remove curly braces{}
+// const sumArrow2 = (a, b) => a + b
+//
+// console.log(sumArrow2(10, 50))
