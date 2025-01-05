@@ -18,20 +18,20 @@
 // object
 // template literals
 // methods Math.Floor
-const introducer = (name, shirt) => {
-    const person = {
-        name: name,
-        shirt: shirt,
-        assets: 10000000,
-        liabilities: 500067.87,
-        netWorth: function () {
-            return this.assets - this.liabilities
-        }
-    }
-    const intro = `Hi, my name is ${person.name} and color of my shirt is ${person.shirt} and my net worth is
-     Ksh ${person.netWorth()}`
-
-    return intro
-}
-
-console.log(introducer('rodgers', 'white'))
+// const introducer = (name, shirt) => {
+//     const person = {
+//         name: name,
+//         shirt: shirt,
+//         assets: 10000000,
+//         liabilities: 500067.87,
+//         netWorth: function () {
+//             return this.assets - this.liabilities
+//         }
+//     }
+//     const intro = `Hi, my name is ${person.name} and color of my shirt is ${person.shirt} and my net worth is
+//      Ksh ${person.netWorth()}`
+//
+//     return intro
+// }
+//
+// console.log(introducer('rodgers', 'white'))
