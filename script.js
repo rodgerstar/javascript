@@ -98,4 +98,14 @@ function calculateFoodTotal(food, tip){
 
 console.log(calculateFoodTotal(169,23))
 
-//
+//arrow functions =>
+// arrow function with explicit return
+const sumArrow = (a, b) =>{
+    return a + b
+}
+
+// arrow function with implicit return
+// NOTE: for implicit return, remove curly braces{}
+const sumArrow2 = (a, b) => a + b
+
+console.log(sumArrow2(10, 50))
