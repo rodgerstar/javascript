@@ -25,7 +25,7 @@
 //     return result
 // }
 //  // console.log(double([1, 2, 4, 56, 70, 101]))
-// const prompt = require('prompt-sync')();
+//
 //
 // const howManyLetters = () => {
 //
@@ -88,7 +88,7 @@ const lFrequency = (phrase) => {
     return frequency;
 };
 // console.log(lFrequency('i want to style this in my css'));
-
+const prompt = require('prompt-sync')();
 const wordFrequency = (phrase) => {
     let frequency = {};
     const words = phrase.split(' '); // Split the phrase into words
@@ -103,10 +103,10 @@ const wordFrequency = (phrase) => {
 
     return frequency; // Return the frequency object
 };
-
-console.log(
-    wordFrequency(
-        "Your function calculates the frequency of each letter in the provided phrase, but it doesn't return or log the result. To fix this, you need to explicitly return the frequency object at the end of the function. Here's the corrected version of your code"
-    )
-);
+ const userInput = prompt('Search ')
+// console.log(
+//     wordFrequency(
+//         userInput
+//     )
+// );
 
