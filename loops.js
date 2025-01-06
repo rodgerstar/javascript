@@ -87,4 +87,26 @@ const lFrequency = (phrase) => {
     }
     return frequency;
 };
-console.log(lFrequency('i want to style this in my css'));
+// console.log(lFrequency('i want to style this in my css'));
+
+const wordFrequency = (phrase) => {
+    let frequency = {};
+    const words = phrase.split(' '); // Split the phrase into words
+
+    for (const word of words) { // Loop through the words
+        if (word in frequency) {
+            frequency[word]++; // Increment the count if the word exists
+        } else {
+            frequency[word] = 1; // Initialize the count if the word doesn't exist
+        }
+    }
+
+    return frequency; // Return the frequency object
+};
+
+console.log(
+    wordFrequency(
+        "Your function calculates the frequency of each letter in the provided phrase, but it doesn't return or log the result. To fix this, you need to explicitly return the frequency object at the end of the function. Here's the corrected version of your code"
+    )
+);
+
